@@ -45,8 +45,8 @@ Pro začátek se držte doporučení z [Marksheet.io](https://marksheet.io) (mi
     </tbody>
   </table>
 
-[Sémantika v HTML](https://marksheet.io/html-semantics.html)
-[Sémantika řádkových prvků](https://marksheet.io/html-inline-semantics.html)
+- [Sémantika v HTML](https://marksheet.io/html-semantics.html)
+- [Sémantika řádkových prvků](https://marksheet.io/html-inline-semantics.html)
 
 ## HTML entity
 
