@@ -47,6 +47,23 @@ Pro začátek se držte doporučení z [Marksheet.io](https://marksheet.io) (mi
 
 - [Sémantika v HTML](https://marksheet.io/html-semantics.html)
 - [Sémantika řádkových prvků](https://marksheet.io/html-inline-semantics.html)
+- [How to section your HTML](https://css-tricks.com/how-to-section-your-html/) ­– opravdu vyčerpávající článek o strukturování HTML dokumentu
+
+### HTML se pořád vyvíjí
+
+Přesto sledujte dění a mějte oči otevřené. HTML vám toho dává k dispozici mnohem víc, než jen nadpisy, odkazy a odstavce.
+
+<details>
+    <summary>Prvek <code>details</code></summary>
+    Něco, co byste dříve nevytvořily bez užití JavaScriptu, nabízí nyní HTML v základu.
+</details>
+
+```html
+<details>
+    <summary>Prvek <code>details</code></summary>
+    Něco, co byste dříve nevytvořily bez užití JavaScriptu, nabízí nyní HTML v základu.
+</details>
+```
 
 ## HTML entity
 
