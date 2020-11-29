@@ -4,7 +4,7 @@
 
 Sám sice přesně nevím, co _[sémantika](https://cs.wikipedia.org/wiki/S%C3%A9mantika)_ je, jsem přeci jen vyučený číšník a neúspěšný herec :) , ale snažím se používat značky s významem. Při psaní strukury HTML dokumentu se ptám, co je to za část stránky, co představuje? Bude to běžný text, poznámka pod čarou, seznam, článek, navigace atd.? A podle toho volím značku. Pouze tehdy, kdy se žádná nehodí, použiju neutrální `div` (blokový), nebo `span` (řádkový). Naopak, pokud potřebuji do HTML přidat prvek, abych mohl dosáhnout kýženého stylu, například potřebuji vytvořit flexboxový kontejner, přidám `div`.
 
-Pro začátek se držte doporučení z Marksheet.io:
+Pro začátek se držte doporučení z [Marksheet.io](https://marksheet.io) (mimochodem výborný zdroj pro začátky s HTML/CSS: stručný a přehledný a v angličtině):
 
 > Máte na výběr asi stovku HTML elementů. To je _dost_. Dá to fušku procházet celý jejich seznam, abyste vybraly tu správnou značku. Takže si to nekomplikujte a nemarněte čas výběrem vhodné značky pro ten který kousek stránky. Pro začátek po stačí, když si osvojíte tyto značky (a postupně se seznámíte s dalšími):
 
