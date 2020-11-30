@@ -1,0 +1,71 @@
+html {
+    box-sizing: border-box;
+    background-color: #ddd;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+:root {
+    --primary: #e5007d;
+}
+
+body {
+    max-width: 1200px;
+    min-height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+/* ------------------------------ */
+
+/* nadpisy primární barvou Czechitas */
+
+h1,
+h2,
+h3 {
+    color: var(--primary);
+}
+
+.embed {
+    position: relative;
+    max-width: 1200px;
+    border: 1px solid var(--primary);
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.embed::before {
+    content: '';
+    display: block;
+    padding-top: calc(var(--ratio) * 100%); /* vytvoří vertikální prostor v daném poměru (supluje vlastnost height)*/
+}
+
+.embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* designérka chce mapu od Seznamu s poměrem stran 2 : 1 */
+.embed-seznam {
+    --ratio: 1/2;
+}
+
+/* designérka chce mapu od Googlu s poměrem stran 4 : 1 */
+.embed-google {
+    --ratio: 1/4;
+}
+
+/* širokoúhlé video (v poměru 16 : 9) */
+.embed-yt {
+    --ratio: 9/16;
+}

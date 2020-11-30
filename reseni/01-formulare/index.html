@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulář k odběru newsletteru</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <!--
+        Nakóduj formulář k odběru newsletteru:
+
+        1. zamysli se nad tím, jaké informace od uživatele potřebuješ (nepřeháněj to, max. 3 údaje).
+        2. nakóduj funkční formulář.
+        3. otestuj ho tím, že zadáš svou e-mailovou adresu (takovou, ke které máš teď přístup).
+        4. zbyde-li ti čas (ostatní nemají hotovo), hezky ho ostyluj (výchozí styl nebývá nic moc).
+    -->
+    <form action="https://koutik.cz/czechitas/mailer.php" method="POST" class="form">
+        <label for="email" class="form-label">E-mailová adresa k odběru</label>
+        <input type="email" id="email" name="email" required class="form-input">
+        <div class="form-checkbox">
+            <label for="consent" class="form-label">Souhlas se zpracováním osobních údajů</label>
+            <input type="checkbox" id="consent" name="souhlas" value="Souhlasím!" required class="form-input">
+        </div>
+        <input type="hidden" name="tajnyklic" value="czechitas">
+        <button class="form-submit">Přihlásit k odběru</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+:root {
+    --border-light: hsl(0,0%,70%);
+    --border-radius: 0.25em;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.form {
+    padding: 1rem;
+    border: 1px solid var(--border-light);
+    border-radius: var(--border-radius);
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.form-input {
+    display: block;
+    padding: 0.5em 1em;
+    border: 1px solid var(--border-light);
+    border-radius: var(--border-radius);
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+}
+
+.form-input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.form-checkbox {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.form-submit {
+    padding: 0.5em 1em;
+    background-color: #fff;
+    border: 1px solid var(--border-light);
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+}
+
+.form-submit:hover,
+.form-submit:focus {
+    background-color: var(--border-light);
+}
